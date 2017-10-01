@@ -6,15 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">  
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
+  	<header>
+  		<nav class="navbar navbar-expand-lg navbar-dark bg-dark align">
+  			<a class="navbar-brand" href="#">Navbar</a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   	 			<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    			<ul class="navbar-nav mr-auto">
+      				<li class="nav-item"><a class="nav-link" href="#">HELADERAS<span class="sr-only">(current)</span></a></li>
+      				<li class="nav-item"><a class="nav-link" href="#">SPLITS</a></li>
+      				<li class="nav-item"><a class="nav-link" href="#">TV, AUDIO Y VIDEO</a></li>
+      				<li class="nav-item"><a class="nav-link" href="#">GAMING</a></li>
+      				<li class="nav-item"><a class="nav-link" href="#">INFORMÁTICA</a></li>
+      				<li class="nav-item"><a class="nav-link" href="#">CONTACTO</a></li>
+    			</ul>
+    		</div>
+		</nav>
+		<form class="form-inline my-2 mx-2">
+      		<input class="form-control col-10" type="text" placeholder="Encontrá lo que buscás..." aria-label="Search">
+      		<button class="btn btn-outline-success col-2" type="submit">BUSCAR</button>
+    	</form>
+	</header>
+		<!-- ====BARRA DE SECCIONES DEL SITIO=== -->
+		<div class="row">
+			<div class="col-12"><img src="img/Ofertas.jpg" class="img-fluid" style="width: 100%;"></div>
+		</div>
+		<div class="row d-flex justify-content-center">
+			<div class="col-4 col-md-2">
+				<div class="row d-flex my-3">
+					<div class="col-12 d-flex justify-content-center"><a href=""><img src="img/Circle.png"></a></div>
+					<div class="col-12"><p class="text-center h5">HELADERAS</p></div>
+				</div>
+			</div>
+			<div class="col-4 col-md-2">
+				<div class="row d-flex my-3">
+					<div class="col-12 d-flex justify-content-center"><a href=""><img src="img/Circle.png"></a></div>
+					<div class="col-12"><p class="text-center h5">SPLITS</p></div>
+				</div>
+			</div>
+			<div class="col-4 col-md-2">
+				<div class="row d-flex my-3">
+					<div class="col-12 d-flex justify-content-center"><a href=""><img src="img/Circle.png"></a></div>
+					<div class="col-12"><p class="text-center h5">TV, AUDIO Y VIDEO</p></div>
+				</div>
+			</div>
+			<div class="col-6 col-md-2">
+				<div class="row d-flex my-3">
+					<div class="col-12 d-flex justify-content-center"><a href=""><img src="img/Circle.png"></a></div>
+					<div class="col-12"><p class="text-center h5">GAMING</p></div>
+				</div>
+			</div>
+			<div class="col-6 col-md-2">
+				<div class="row d-flex my-3">
+					<div class="col-12 d-flex justify-content-center"><a href=""><img src="img/Circle.png"></a></div>
+					<div class="col-12"><p class="text-center h5">INFORMÁTICA</p></div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+		<!-- ====BARRA DE OFERTAS=== -->
+		<div class="row">
+			<div class="col-6 col-md-3 px-2">
+				<a href=""><img src="img/Square.png" class="img-fluid col-12 p-0"></a>
+				<p class="lead col-12 px-2 py-2 m-0 bg-danger"><strong>NOMBRE PRODUCTO LOREM IPSUM</strong></p>
+				<p class="h5 px-2 bg-danger"><em><del>$14500</del></em> $13500</p>
+			</div>
+			<div class="col-6 col-md-3 px-2">
+				<a href=""><img src="img/Square.png" class="img-fluid col-12 p-0"></a>
+				<p class="lead col-12 px-2 py-2 m-0 bg-danger"><strong>NOMBRE PRODUCTO LOREM IPSUM</strong></p>
+				<p class="h5 px-2 bg-danger"><em><del>$14500</del></em> $13500</p>
+			</div>
+			<div class="col-6 col-md-3 px-2">
+				<a href=""><img src="img/Square.png" class="img-fluid col-12 p-0"></a>
+				<p class="lead col-12 px-2 py-2 m-0 bg-danger"><strong>NOMBRE PRODUCTO LOREM IPSUM</strong></p>
+				<p class="h5 px-2 bg-danger"><em><del>$14500</del></em> $13500</p>
+			</div>
+			<div class="col-6 col-md-3 px-2">
+				<a href=""><img src="img/Square.png" class="img-fluid col-12 p-0"></a>
+				<p class="lead col-12 px-2 py-2 m-0 bg-danger"><strong>NOMBRE PRODUCTO LOREM IPSUM</strong></p>
+				<p class="h5 px-2 bg-danger"><em><del>$14500</del></em> $13500</p>
+			</div>
+		</div>
+	</div>
+	<footer></footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>
+ <div class="col-6 col-md-6 order-md-2 "></div>
+ <div class="col-6 col-md-6 order-md-2 "></div>
 </html>
