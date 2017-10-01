@@ -1,0 +1,21 @@
+.bg-red-offer10 {
+	background-color: #e23f3f !important;
+}
+
+.btn-red-offer10 {
+  color: #fff;
+  background-color: #e23f3f;
+  border-color: #dc3545;
+}
+
+.bg-light-gray-offer10 {
+	background-color: #e5e5e5 !important;
+}
+
+.rounded-corners-top-offer10 {
+	border-radius: 5px 5px 0px 0px;
+}
+
+.rounded-corners-bottom-offer10 {
+	border-radius: 0px 0px 5px 5px;
+}
