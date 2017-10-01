@@ -39,7 +39,7 @@
                     <div class="col-12 col-3 col-md-3 mt-10 jumbotron">
                           <h3>Imagen Producto</h3>                  
                     </div> 
-                    <div class="col-12 col-3 col-md-3 mt-10 jumbotron">
+                    <div class="col-12 col-3 ml-2 col-md-3 mt-10  jumbotron">
                           <h3>Producto seleccionado</h3>  
                     </div>
                 </br>
@@ -72,17 +72,28 @@
                                 <label class="checkbox-inline">
                                 <input type="checkbox" value="">Retiro en sucursal
                                 </label>
-                                <label class="checkbox-inline">
-                                <input type="checkbox" value="">envío a domicilio
+                                <label class="checkbox-inline ml-3">
+                                <input type="checkbox" value="">Envío a domicilio
                                 </label>
                             </div>
-                            <div class="form-group">
-                                 <label for="direc">Dirección *</label>
-                                 <input type="text" class="form-control" id="direc" placeholder="Dirección">
-                            </div>                      
-                            <div class="form-group">
+                            <div class="row ">
+                                 <div class="col-8 col-md-8 ">
+                                      <span class="help-block small-font" > Dirección *</span>
+                                      <input type="text" class="form-control" placeholder="Dirección" />
+                                 </div>
+                                 <div class="col-4 col-md-4 ">
+                                      <span class="help-block small-font" >  Piso *</span>
+                                      <input type="text" class="form-control" placeholder="Piso" />
+                                </div> 
+                            </div>                     
+                            <div class="form-group mt-2">
                                 <label for="ciudad">Ciudad *</label>
-                                <input type="text" class="form-control" id="ciudad" placeholder="Ciudad">
+                                <select class="form-control" id="sel1">
+                                   <option>Corrientes</option>
+                                   <option>Formosa</option>
+                                   <option>Chaco</option>
+                                   <option>Misiones</option>
+                                </select>
                             </div> 
                             <div class="form-group">
                                  <label for="cod">Código postal *</label>
@@ -97,17 +108,25 @@
                           <label class="checkbox-inline">
                           <input type="checkbox" value="">Efectivo
                           </label>
-                          <label class="checkbox-inline">
+                          <label class="checkbox-inline ml-3">
                           <input type="checkbox" value="">Tarjeta
                           </label>
                        </div>
                        <div class="form-group">
                           <label for="tarj">Tarjeta *</label>
-                          <input type="text" class="form-control" id="tarj" placeholder="tarjeta">
+                               <select class="form-control" id="sel1">
+                                   <option>Mastercar</option>
+                                   <option>Visa</option>
+                                   <option>Naranja</option> 
+                                </select>
                        </div>
                        <div class="form-group">
                           <label for="banc">Banco *</label>
-                          <input type="text" class="form-control" id="banc" placeholder="tarjeta">
+                               <select class="form-control" id="sel1">
+                                   <option>Nación</option>
+                                   <option>HBS</option>
+                                   <option>Corrientes</option> 
+                                </select>
                        </div>
                        <div class="form-group">
                           <label for="tarj">N° Tarjeta *</label>
@@ -115,19 +134,25 @@
                        </div>
                        <div class="form-group">
                           <label for="tarj">Valida hasta *</label>
-                          <input type="text" class="form-control" id="tarj" placeholder="tarjeta">
+                          <div class="row ">
+                                <div class="col-3 col-md-3 ">                  
+                                    <input type="text" class="form-control" placeholder="MM" />
+                               </div>
+                               <div class="col-3 col-md-3 "> 
+                                   <input type="text" class="form-control" placeholder="YY" />
+                               </div>
+                         </div>   
                        </div>
                        <div class="form-group">
                           <label for="tarj">Código de seguridad *</label>
                           <input type="text" class="form-control" id="tarj" placeholder="tarjeta">
-                       </div>
-                                                
+                       </div> 
                         <button type="submit" class="btn btn-default">Enviar</button>
                 </form>
             </div>
             </div>
         </div>
-     </main> 
+     </main>        
 
 </body>
 </html>
