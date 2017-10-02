@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
     <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">    
 	<title>Compra</title>
+   
 </head>
 
 <body>
@@ -48,7 +49,7 @@
             <div class="row align-items-center">
                    <br><div class="col-12 col-md-6 order-md-1  mt-10">    
                            <h3 class="mb-3">Datos del comprador:</h3>
-                           <form>
+                           <form>                            
                               <div class="form-group">
                                    <label for="nombre">Nombre *</label>
                                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
@@ -70,14 +71,15 @@
                        <h3 class="mb-3">Envio:</h3> 
                        <div class="form-check form-check-inline">
                            <label class="form-check-label">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Retiro de sucursal
+                           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="domicilio">Envío a domicilio
                            </label>
                       </div>
                       <div class="form-check form-check-inline">
                           <label class="form-check-label">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Envío a domicilio
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="sucursal">Retido de sucursal
                           </label>
                       </div>
+                      <div id="datos" ">
                             <div class="row ">
                                  <div class="col-8 col-md-8 ">
                                       <span class="help-block small-font" > Dirección *</span>
@@ -91,6 +93,7 @@
                             <div class="form-group mt-2">
                                 <label for="ciudad">Ciudad *</label>
                                 <select class="form-control" id="sel1">
+                                   <option selected>Seleccionar...</option>
                                    <option>Corrientes</option>
                                    <option>Formosa</option>
                                    <option>Chaco</option>
@@ -102,23 +105,25 @@
                                  <input type="text" class="form-control" id="cod" placeholder="Codigo postal">
                            </div>                      
                    </div>
+                   </div>
             </div>
             <div class="row align-items-center">
                  <div class="col-12 col-6 col-md-6 order-md-2 mt-10">
                       <h3 class="mb-3">Pago:</h3> 
                       <div class="form-check form-check-inline">
                            <label class="form-check-label">
-                           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Efectivo
+                           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="efectivo"> Efectivo
                            </label>
                       </div>
                       <div class="form-check form-check-inline">
                           <label class="form-check-label">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Tarjeta
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="tarjeta"> Tarjeta
                           </label>
                       </div>
                        <div class="form-group">
                           <label for="tarj">Tarjeta *</label>
                                <select class="form-control" id="sel1">
+                                   <option selected>Seleccionar...</option>
                                    <option>Mastercar</option>
                                    <option>Visa</option>
                                    <option>Naranja</option> 
@@ -127,6 +132,7 @@
                        <div class="form-group">
                           <label for="banc">Banco *</label>
                                <select class="form-control" id="sel1">
+                                   <option selected>Seleccionar...</option>
                                    <option>Nación</option>
                                    <option>HBS</option>
                                    <option>Corrientes</option> 
